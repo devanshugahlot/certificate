@@ -1,38 +1,33 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Kaushan+Script&family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Kaushan+Script&family=Satisfy&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-.certificate{
-  
+.certificate {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   /* padding: 2rem; */
   position: relative;
-
 }
-.certificate img{
-  width:  80%;
-  height:90vh;
+.certificate img {
+  width: 80%;
+  height: 90vh;
   position: absolute;
   top: 2rem;
   /* left: 6rem; */
-
 }
-.c-content{
-  
+.c-content {
 }
-.c-content img{
-width: 12rem;
-position: absolute;
-top: 3rem;
-left: 4rem;
+.c-content img {
+  width: 12rem;
+  position: absolute;
+  top: 3rem;
+  left: 4rem;
 }
 .c-content {
   position: relative;
@@ -48,7 +43,7 @@ left: 4rem;
   margin-bottom: 2rem;
   text-align: center;
 }
-.c-heading h1{
+.c-heading h1 {
   color: rgb(249, 154, 119);
   font-size: 3rem;
   text-align: center;
@@ -56,78 +51,75 @@ left: 4rem;
   font-weight: 700;
   font-style: normal;
 }
-.c-heading h3{
+.c-heading h3 {
   font-family: "Arvo", serif;
   font-weight: 700;
   font-style: normal;
   color: rgb(37, 37, 120);
 }
-.c-mid{
+.c-mid {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.c-name{
+.c-name {
   width: 20rem;
-  border-bottom: .2rem solid rgb(40, 40, 159);
+  border-bottom: 0.2rem solid rgb(40, 40, 159);
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: .5rem;
+  padding: 0.5rem;
   margin-bottom: 1rem;
 }
-.c-name h4{
+.c-name h4 {
   color: rgb(21, 21, 105);
   font-family: "cardo", serif;
   font-weight: 400;
   font-style: normal;
 }
-.c-name h1{
-  
-    font-family: "Kaushan Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .c-mid p{
-    margin-top: .5rem;
-  }
-.c-bottam{
+.c-name h1 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.c-mid p {
+  margin-top: 0.5rem;
+}
+.c-bottam {
   display: flex;
   flex-direction: row;
   margin-block: 2rem;
   justify-content: space-around;
   width: 80%;
 }
-.c-bottam .date{
-  border-top: .1rem solid blue;
+.c-bottam .date {
+  border-top: 0.1rem solid blue;
   width: 7rem;
   text-align: center;
 }
-.c-bottam .signature{
-  border-top: .1rem solid blue;
+.c-bottam .signature {
+  border-top: 0.1rem solid blue;
   width: 7rem;
   text-align: center;
 }
-.certificate .img img{
+.certificate .img img {
   height: 8rem;
   width: 8rem;
   position: absolute;
   top: 5rem;
   left: 20rem;
 }
-.certificate .img .animal img{
+.certificate .img .animal img {
   position: absolute;
   left: 68rem;
   height: 7rem;
   width: 7rem;
   top: 5.9rem;
-
 }
 
-
-@media(max-width:768px){
+@media (max-width: 768px) {
   .certificate .img .animal img {
     display: none;
     /* position: absolute;
@@ -135,114 +127,110 @@ left: 4rem;
     height: 3rem;
     width: 3rem;
     top: 4.9rem; */
-}
-.c-mid p {
-  margin-left: 30px;
-  width: 220px;
-  margin-top: .5rem;
-}
-.c-heading h1 {
-  /* margin-left: 100px; */
-  color: rgb(249, 154, 119);
-  font-size: 2rem;
-  text-align: center;
-  font-family: "Arvo", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.certificate .img img {
-  height: 3rem !important;
-  width: 3rem !important;
-  position: absolute !important;
-  top: 1rem !important;
-  left: 17rem !important;
-  /* display: none; */
-}
-.c-heading h3 {
-  /* margin-left: 100px; */
-  font-family: "Arvo", serif;
-  font-weight: 700;
-  font-style: normal;
-  color: rgb(37, 37, 120);
-}
-.c-name h1 {
-  /* margin-left: 100px; */
-  font-family: "Kaushan Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-.c-name h4 {
-  /* margin-left: 100px; */
-  color: rgb(21, 21, 105);
-  font-family: "cardo", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.c-name {
-  width: 20rem;
-  border-bottom: .2rem solid transparent;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: .5rem;
-  margin-bottom: 1rem;
-}
-.c-bottam {
-  display: flex;
-  flex-direction: row;
-  margin-block: 2rem;
-  justify-content: space-around;
-  gap: 15px;
-  width: 75%;
-  /* margin-left: 45px; */
-}
+  }
+  .c-mid p {
+    margin-left: 30px;
+    width: 220px;
+    margin-top: 0.5rem;
+  }
+  .c-heading h1 {
+    /* margin-left: 100px; */
+    color: rgb(249, 154, 119);
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .certificate .img img {
+    height: 3rem !important;
+    width: 3rem !important;
+    position: absolute !important;
+    top: 1rem !important;
+    left: 17rem !important;
+    /* display: none; */
+  }
+  .c-heading h3 {
+    /* margin-left: 100px; */
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(37, 37, 120);
+  }
+  .c-name h1 {
+    /* margin-left: 100px; */
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .c-name h4 {
+    /* margin-left: 100px; */
+    color: rgb(21, 21, 105);
+    font-family: "cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .c-name {
+    width: 20rem;
+    border-bottom: 0.2rem solid transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .c-bottam {
+    display: flex;
+    flex-direction: row;
+    margin-block: 2rem;
+    justify-content: space-around;
+    gap: 15px;
+    width: 75%;
+    /* margin-left: 45px; */
+  }
 }
 
-
-
-@media(max-width:1333px){
+@media (max-width: 1333px) {
   .certificate .img .animal img {
     position: absolute;
     left: 53rem;
     height: 7rem;
     width: 7rem;
     top: 5.9rem;
-}
-.certificate .img img {
-  height: 8rem;
-  width: 8rem;
-  position: absolute;
-  top: 5rem;
-  left: 12rem;
-}
+  }
+  .certificate .img img {
+    height: 8rem;
+    width: 8rem;
+    position: absolute;
+    top: 6rem;
+    left: 18rem;
+  }
 }
 
-@media(max-width:1123px){
+@media (max-width: 1123px) {
   .certificate .img .animal img {
     position: absolute;
     left: 44rem;
     height: 7rem;
     width: 7rem;
     top: 5.9rem;
+  }
 }
 
-}
-
-
-@media(max-width:895px){
+@media (max-width: 895px) {
   .certificate .img .animal img {
     position: absolute;
     left: 40rem;
     height: 7rem;
     width: 5rem;
     top: 4.9rem;
-}
-.certificate .img img {
-  height: 5rem;
-  width: 5rem;
-  position: absolute;
-  top: 5rem;
-  left: 10rem;
-}
+  }
+  .certificate .img img {
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+  }
 }
